@@ -1,13 +1,5 @@
 import sys
 
-binary_year=b'\xC4\xEA' 
-binary_month=b'\xD4\xC2' 
-binary_day=b'\xC8\xD5'  
-
-Year=binary_year.decode('gbk')
-Month=binary_month.decode('gbk')
-Day=binary_day.decode('gbk')
-
 class Date:
     def __init__(self,op,date_str):
         if op=='1':
